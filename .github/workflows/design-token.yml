@@ -34,6 +34,7 @@ jobs:
       # 5. Style Dictionary로 빌드
       - name: Build design tokens
         run: npm run build
+        
 
       # (선택) 6. 결과물을 커밋하고 푸시
       - name: Commit and push built tokens
